@@ -15,6 +15,7 @@
 		FF47F348244A7A16007B3106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF47F346244A7A16007B3106 /* LaunchScreen.storyboard */; };
 		FF47F353244A7A16007B3106 /* Homework_9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF47F352244A7A16007B3106 /* Homework_9Tests.swift */; };
 		FF47F35E244A7A16007B3106 /* Homework_9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF47F35D244A7A16007B3106 /* Homework_9UITests.swift */; };
+		FF47F36D244A7BAE007B3106 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF47F36C244A7BAE007B3106 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FF47F359244A7A16007B3106 /* Homework 9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 9UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF47F35D244A7A16007B3106 /* Homework_9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_9UITests.swift; sourceTree = "<group>"; };
 		FF47F35F244A7A16007B3106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF47F36C244A7BAE007B3106 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF47F36D244A7BAE007B3106 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				FF47F351244A7A16007B3106 /* Homework 9Tests */,
 				FF47F35C244A7A16007B3106 /* Homework 9UITests */,
 				FF47F339244A7A12007B3106 /* Products */,
+				FF47F36B244A7BAE007B3106 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				FF47F35F244A7A16007B3106 /* Info.plist */,
 			);
 			path = "Homework 9UITests";
+			sourceTree = "<group>";
+		};
+		FF47F36B244A7BAE007B3106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF47F36C244A7BAE007B3106 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
